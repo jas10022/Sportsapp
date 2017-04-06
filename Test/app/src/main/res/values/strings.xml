@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="facebook_app_id">1631054257194871</string>
+    <string name="fb_login_protocol_scheme">fbAPP_ID</string>\
+    <string name="auth_failed">The username or password is incorrect</string>
+    <string name="wait">Please Wait....</string>
+    <string name="title_activity_student_view">StudentView</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_fire_missiles">Fire the missle</string>
+    <string name="fire">Fire</string>
+    <string name="title_activity_players_near">Map</string>
+    <string name="title_activity_student_page">StudentPage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_student_profile2">StudentProfile2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

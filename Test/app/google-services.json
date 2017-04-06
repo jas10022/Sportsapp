@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "920057600680",
+    "firebase_url": "https://test-8c64b.firebaseio.com",
+    "project_id": "test-8c64b",
+    "storage_bucket": "test-8c64b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920057600680:android:af53ffa652544289",
+        "android_client_info": {
+          "package_name": "balance.self.edu.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920057600680-8dicnejtj16mrrvl0242jmd2foa81ua0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "balance.self.edu.test",
+            "certificate_hash": "D7BA6451B725093A04F8D8BC61ABE3011FFD6FFC"
+          }
+        },
+        {
+          "client_id": "920057600680-s8vcddrj09kve8mgnfbtha6gud55tn1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLkOLKV6_7mDNVHwEhuVUqJAsUX4IFlVk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920057600680-s8vcddrj09kve8mgnfbtha6gud55tn1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="20dp"
+    tools:context="balance.self.edu.test.SkillsEdit">
+
+    <TextView
+        android:text="Sex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:id="@+id/Sex"
+        android:layout_below="@+id/Age"
+        android:layout_alignStart="@+id/Age" />
+
+    <TextView
+        android:text="Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Age"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/Username"
+        android:layout_alignStart="@+id/Username" />
+
+    <TextView
+        android:text="Skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Weight"
+        android:layout_alignStart="@+id/Weight"
+        android:layout_marginTop="17dp"
+        android:id="@+id/Skills" />
+
+    <TextView
+        android:text="Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Weight"
+        android:layout_below="@+id/Sex"
+        android:layout_alignStart="@+id/Sex"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:text="New Skill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="21dp"
+        android:id="@+id/NewSkillText"
+        android:layout_alignTop="@+id/newSkill"
+        android:layout_toStartOf="@+id/newSkill"
+        android:layout_marginTop="11dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        android:id="@+id/newSkill"
+        android:layout_marginBottom="15dp"
+        app:elevation="3dp"
+        android:layout_above="@+id/floatingActionButton"
+        android:layout_alignStart="@+id/floatingActionButton" />
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:orientation="vertical"
+        android:id="@+id/SkillsSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Skills"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp">
+
+    </LinearLayout>
+
+    <TextView
+        android:text="New Feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newFeedbackText"
+        android:layout_alignBottom="@+id/newFeedback"
+        android:layout_alignEnd="@+id/NewSkillText"
+        android:layout_marginBottom="11dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        android:id="@+id/newFeedback"
+        app:elevation="3dp"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/newSkill"
+        android:layout_alignStart="@+id/newSkill" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        android:id="@+id/newWorkout"
+        app:elevation="3dp"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/newFeedback"
+        android:layout_alignStart="@+id/newFeedback" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        android:id="@+id/floatingActionButton"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Username"
+        android:layout_marginTop="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/SkillsSection" />
+
+    <TextView
+        android:text="New Workout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/newWorkoutText"
+        android:layout_marginBottom="10dp"
+        android:layout_alignBottom="@+id/newWorkout"
+        android:layout_alignStart="@+id/newFeedbackText" />
+
+    <TextView
+        android:text="Workouts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Workouts"
+        android:layout_below="@+id/SkillsSection"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:orientation="vertical"
+        android:id="@+id/WorkoutSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true">
+
+    </LinearLayout>
+
+</RelativeLayout>
